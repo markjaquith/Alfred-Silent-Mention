@@ -9,7 +9,7 @@ Or you could type `WordPress.com` or `Amazon.com` in Slack without a big annoyin
 ## Installation
 1. Have [Alfred][alfred] installed.
 2. Have the [Alfred Powerpack][powerpack] installed.
-3. [Download the Silent Mention workflow file][download], and doubleclick it to add it to Alfred.
+3. [Download the Silent Mention workflow file][download], and double-click it to add it to Alfred.
 4. Customize the keyword if you want (default is `silent`).
 
 ## Usage
