@@ -16,7 +16,7 @@ Or you could type `WordPress.com` or `Amazon.com` in Slack without a big annoyin
 Invoke Alfred, then type `silent @username` or `silent amazon.com` or `silent #hashtag` and hit return. The thing you typed will be pasted into the frontmost app, but will **not** be seen as a username mention, a domain link, or a valid hashtag.
 
 ## How It Works
-It works by inserting a "zero-width space" character (which is like a space, but without any width, so it's invisible) in a location that breaks the parsing. So, to Twitter, it looks like `WordPress .com` (with a space), but to a human's eyes, it is just `WordPress​.com` (that one has a zero-width space in it).
+It works by inserting an invisible "`U+2060` [Word Joiner][word-joiner]" character in a location that breaks the parsing. `U+2060` is a special character that means "the things on either side of me should stay stuck together". So, to Twitter, it looks like `WordPress<U+2060>.com` or `@<U+2060>stop, but to a human's eyes, it is just `WordPress⁠.com` or `@⁠stop`.
 
 ## Works On
 * Twitter
@@ -29,3 +29,4 @@ It works by inserting a "zero-width space" character (which is like a space, but
 [stop]: https://twitter.com/stop
 [alfred]: https://www.alfredapp.com/
 [powerpack]: https://www.alfredapp.com/powerpack/
+[word-joiner]: https://en.wikipedia.org/wiki/Word_joiner
