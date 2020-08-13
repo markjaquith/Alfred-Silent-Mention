@@ -28,3 +28,4 @@ It works by inserting a "zero-width space" character (which is like a space, but
 [download]: https://github.com/markjaquith/Alfred-Silent-Mention/raw/main/Silent%20Mention.alfredworkflow
 [stop]: https://twitter.com/stop
 [alfred]: https://www.alfredapp.com/
+[powerpack]: https://www.alfredapp.com/powerpack/
