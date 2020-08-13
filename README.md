@@ -1,4 +1,4 @@
-# Alfred Silent Mentions
+# Alfred Silent Mention
 Alfred 4 Workflow to silently type `@usernames`, `domains.com`, or `#hashtags` without them being linked or parsed.
 
 <img width="704" alt="Screen Shot 2020-08-13 at 5 04 14 PM" src="https://user-images.githubusercontent.com/353790/90187047-2b991e80-dd87-11ea-97cf-0066a7fcc579.png">
